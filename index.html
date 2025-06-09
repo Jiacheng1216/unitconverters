@@ -2,8 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>unitconverters</title>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Unit Converter</h1>
+    <select id="unit-type">
+      <option value="length">Length</option>
+      <option value="weight">Weight</option>
+      <option value="temperature">Temperature</option>
+    </select>
+
+    <div id="converter-area">
+      <input type="number" id="input-value" />
+      <select id="from-unit"></select>
+      =
+      <span id="result-value"></span>
+      <select id="to-unit"></select>
+    </div>
+
+    <script src="units.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>

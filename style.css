@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+    padding: 2em;
+  }
+  #converter-area {
+    margin-top: 1em;
+  }
+  input, select {
+    padding: 0.4em;
+    margin: 0.2em;
+  }
+  
